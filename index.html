@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<title>
-		<!-- TODO: Insert Name Here --> Portfolio</title>
+		Josh Strawbridge's Portfolio</title>
 	<!-- This is a link to bootstrap-->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 	<link href="style.css" rel="stylesheet">
@@ -13,110 +13,83 @@
 
 <body>
 
-	<nav class="navbar navbar-expand-sm bg-dark navbar-dark" data-spy="affix" data-offset-top="197">
+
+
+	<nav class="navbar navbar-expand-sm navbg navbar-dark" data-spy="affix" data-offset-top="197">
 		<a class="navbar-brand" href="#">My Portfolio</a>
 		<ul class="navbar-nav">
 			<li class="nav-item">
-				<!--<a class="nav-link" href="TODO: type your LinkedIn URL here">LinkedIn</a> -->
+				<a class="nav-link" target = blank href="https://www.linkedin.com/in/josh-strawbridge-a387391ba/">LinkedIn</a>
 			</li>
 			<li class="nav-item">
-				<!-- <a class="nav-link" href="TODO: type your github URL here">Github Profile</a>-->
+				<a class="nav-link" target = blank href="https://github.com/DaedalJS">Github Profile</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" target = blank href="https://www.codewars.com/users/DaedalJS"><img src="https://www.codewars.com/users/DaedalJS/badges/micro"></a>
 			</li>
 		</ul>
 	</nav>
 
+	
+		
 
-	<!-- BONUS -->
-	<!-- TODO: Create your own <div></div> here and give it a class name of "sidebar" example(class="sidebar") -->
-	<!-- TODO: Inside of it put a <p></p> tag and inside put some text example(<p>Type Lorem and hit tab twice</p>) -->
-	<!--<div class="sidebar">
-		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-			Optio dolorum iure cum perspiciatis sapiente iusto minus sint aliquam?
-			Et assumenda id doloremque quasi quaerat eligendi amet eius possimus maiores. Repudiandae?</p>
-		<div>
-			<ul>
-				<li>
-					<h4>Languages</h4>
-				</li>
-				<li>
-					<h4>Something</h4>
-				</li>
-				<li>
-					<h4>Something Else</h4>
-				</li>
-			</ul>
-		</div>
-		<div class="resume">
-		<h3 id="my-resume"><i>My Resume</i></h3>-->
-
-	<!-- TODO: Replace "TrueCoders Master Resume Template.pdf with YOUR resume pdf file"-->
-	<!--<a href="TrueCoders Master Resume Template.pdf" download><img src="/img/download-button.png"
-			id="download_button"></a>
-		</div>
-		</div>
-		<br>
-		<br>
-		<div class="collapse-button">
-			<p>use JavaScript to make sidebar collapsable</p>
-		</div>-->
-
-
-
-	< <div class="container">
+	 <div class="container">
 		<div class="container">
-			<div class="row">
-				<div class="col-sm-4">
-					<!-- We use "col-sm-'x' as a bootstrap column class -->
-					<!-- TODO: Try changing the number here from "col-sm-4" to "col-sm-6" and see how it changes the document -->
-					<h3><b>Your Picture Goes Here</b></h3>
-					<img src="/img/profile-pic.png">
+			<div class="container row about-me">
+				<div class="container col-sm-2" style="margin-right: 40px;">
+					<h3 style="text-align: center;"><b>About Me</b></h3>
+							<img class="profilepic" src="/img/profile-pic.png" style="float: left;" alt="a drawing somewhat resembling me" width="200" height="200" >
 				</div>
-				<div class="col-sm-6">
-					<h3><b>About Me</b></h3>
-					<p>
-						<!-- TODO: type a brief summary of yourself here -->
-					</p>
+				<div class="container col-sm-5" style="margin-left: 30px; text-align: justify;">
+						<p><br>
+							My first run in with coding was with this old online game called Graal.  
+							It had a level editor and you could script your own custom items and NPCs.
+							I remember making an RC car that exploded when you ran it into things.<br><br>
+							Being a linux end user for a decade has honed my google-fu skills.
+							My hobby is making things, from art to furniture. Coming from that it gives me an appreciation 
+							for the modularity of programming and how it allows you to reuse the parts.
+						</p>
 				</div>
-
-				<!-- TODO: You can add or remove as many tags that you need to-->
-				<div class="col-sm-2">
-					<h3><b>Contact Me</b></h3>
-					<ul>
+				
+				<div class="col-sm-4" style="float: right;">
+					<h3><b>Contact Info</b></h3>
+					<ul style="text-align: left;">
 						<li>
-							<!-- TODO: type your cell number here-->
+							E-Mail: HolyKnightJoshua@gmail.com
 						</li>
 						<li>
-							<!-- TODO: type your email here-->
+							Mobile: (205) 555-5555
 						</li>
 						<li>
-							<!-- TODO: type your address here-->
+							Location: Kimberly, AL
 						</li>
+						
 					</ul>
+					<h3 id="my-resume"><i>My Resume</i></h3>
+					
+					<!-- TODO: Replace "TrueCoders Master Resume Template.pdf with YOUR resume pdf file"-->
+					<a href="Josh Strawbridge Resume.pdf" download><img src="/img/download-button.png"
+						id="download_button"></a>
 				</div>
-			</div>
+			</div>			
 		</div>
 
-		<!-- TODO: You can add or remove as many tags that you need to-->
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-9">
-					<h2><b>Work Experience</b></h2>
+
+					<h2><b>LANGUAGES</b></h2>
 					<ul>
 						<li>
-							<!-- TODO: Type your work experience here inside the <li> tags -->
+							C#, .NET Core, SQL, API, HTML, CSS, ASP.NET
 						</li>
-						<li>
-							<!-- TODO: Type your work experience here inside the <li> tags -->
-						</li>
-						<li>
-							<!-- TODO: Type your work experience here inside the <li> tags -->
-						</li>
+						
 					</ul>
 				</div>
-				<div class="col-sm-3">
-					<!-- TODO: add another section here if you would like to <h2> Title </h2> -->
-				</div>
 			</div>
+					<div class="col-sm-3">
+						<h2> Experience/Projects </h2>
+					</div>
 
 			<div class="container">
 				<div class="row">
@@ -142,18 +115,18 @@
 						<div class="project2">
 							<p><b>Tacobell Geolocator: C# | .NET Core | SQL | xUnit</b></p>
 							<ul>
-								<!-- TODO: You can add or remove as many tags that you need to-->
 								<li>
-									<!-- TODO: Type a summary of your project here -->
+									Used C# to process a list of Taco Bell locations from a single string to a list of Taco Bell Objects
 								</li>
 								<li>
-									<!-- TODO: Type a summary of your project here -->
+									Each Taco Bell object contained usable coordinate point object and a location name string.
 								</li>
 								<li>
-									<!-- TODO: Type a summary of your project here -->
+									Using GeoCoordinatePortable, set up nested loops to pass through the list of Taco Bell Objects and determine their distance from each other.
+									
 								</li>
 								<li>
-									<!-- TODO: Type a summary of your project here -->
+									To find the farthest two Taco Bells, previously declared variables were used and set if the distance was greater than the current recorded distance.
 								</li>
 							</ul>
 						</div>
@@ -161,18 +134,18 @@
 						<div class="project3">
 							<p><b>KanyeREST: C# | .NET Core | JSON | API</b></p>
 							<ul>
-								<!-- TODO: You can add or remove as many tags that you need to-->
 								<li>
-									<!-- TODO: Type a summary of your project here -->
+									Used C# to get quotes using an API from both <a href="https://ron-swanson-quotes.herokuapp.com/v2/quotes">Swanson Quotes</a> and <a href="https://api.kanye.rest">Kanye.Rest</a>
 								</li>
 								<li>
-									<!-- TODO: Type a summary of your project here -->
+									used Newtonsoft.Json.Linq to easily pull the specific quote lines from Kanye. <br>
+										and to convert both quotes to a string from a JSON object.
 								</li>
 								<li>
-									<!-- TODO: Type a summary of your project here -->
+									set up a loop that alternates between two different methods based on a user response.
 								</li>
 								<li>
-									<!-- TODO: Type a summary of your project here -->
+									enjoyed? a simulated "conversation" beetween Kanye and Ron Swanson.
 								</li>
 							</ul>
 						</div>
@@ -181,8 +154,7 @@
 
 
 				<div class="row">
-					<!-- TODO: Replace what's inside the <p> tag and add any extra information you think is relavent here. For example (awards, certifications, recommendations)-->
-					<p></p>
+					<a class="nav-link" target = blank href="https://www.codewars.com/users/DaedalJS"><img src="https://www.codewars.com/users/DaedalJS/badges/large"></a>
 				</div>
 
 
@@ -190,10 +162,8 @@
 
 
 
-				<!--- Footer -->
 				<div class="footer">
-					<!-- TODO: Replace and type your footer here -->
-					<p>TrueCoders Portfolio Website Template © 2020
+					<p>Josh Strawbridge © 2020  
 					</p>
 				</div>
 				<br>
