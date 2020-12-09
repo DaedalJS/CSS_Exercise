@@ -15,22 +15,30 @@ body{
 }
 .profilepic{
   border-radius: 5%;
+  margin-top: 10px
 }
 .contact-info {
 text-align: left;
 }
 
+.taright{ text-align: right;}
+.taleft{text-align: left;}
+
 .navbg{background-color:#002722de}
 
-
-.about-me {
+.about-me-container {
+  float: left; 
+  width: 68%;
+}
+.about-me-text {
   position: relative;
-  text-align: center;
-  margin: 5px 35px 5px 35px;
+  width: 75%; 
+  margin-left: 10px; 
+  text-align: justify;
 }
 
 .column.middle {
-  width: 50%;
+  width: 70%;
   height: 250px;
   text-align: center;  
 }
@@ -43,15 +51,10 @@ text-align: left;
 }
 
 .contact-info{
-  position: absolute;
-  top: 90px;
-  right: 15px;
-  width: 300px;
-  height: 200px;
-  border: 1px solid black;
-  float: left;
-  width: 100%;
   padding: 10px;
+  width: auto;
+  text-align: center;
+  float: right;
 }
 
 .contact-me{

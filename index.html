@@ -6,14 +6,11 @@
 
 	<title>
 		Josh Strawbridge's Portfolio</title>
-	<!-- This is a link to bootstrap-->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 	<link href="style.css" rel="stylesheet">
 </head>
 
 <body>
-
-
 
 	<nav class="navbar navbar-expand-sm navbg navbar-dark" data-spy="affix" data-offset-top="197">
 		<a class="navbar-brand" href="#">My Portfolio</a>
@@ -33,47 +30,61 @@
 	
 		
 
-	 <div class="container">
+	<div class="container">
 		<div class="container">
-			<div class="container row about-me">
-				<div class="container col-sm-2" style="margin-right: 40px;">
-					<h3 style="text-align: center;"><b>About Me</b></h3>
-							<img class="profilepic" src="/img/profile-pic.png" style="float: left;" alt="a drawing somewhat resembling me" width="200" height="200" >
-				</div>
-				<div class="container col-sm-5" style="margin-left: 30px; text-align: justify;">
-						<p><br>
-							My first run in with coding was with this old online game called Graal.  
-							It had a level editor and you could script your own custom items and NPCs.
-							I remember making an RC car that exploded when you ran it into things.<br><br>
-							Being a linux end user for a decade has honed my google-fu skills.
-							My hobby is making things, from art to furniture. Coming from that it gives me an appreciation 
-							for the modularity of programming and how it allows you to reuse the parts.
-						</p>
-				</div>
-				
-				<div class="col-sm-4" style="float: right;">
-					<h3><b>Contact Info</b></h3>
-					<ul style="text-align: left;">
-						<li>
-							E-Mail: HolyKnightJoshua@gmail.com
-						</li>
-						<li>
-							Mobile: (205) 555-5555
-						</li>
-						<li>
-							Location: Kimberly, AL
-						</li>
-						
-					</ul>
-					<h3 id="my-resume"><i>My Resume</i></h3>
-					
-					<!-- TODO: Replace "TrueCoders Master Resume Template.pdf with YOUR resume pdf file"-->
-					<a href="Josh Strawbridge Resume.pdf" download><img src="/img/download-button.png"
-						id="download_button"></a>
-				</div>
-			</div>			
-		</div>
+			<div class="row">
+				<div class="col">
+					<div class="container about-me-container">
+						<div class="row">
+							<div class="col-sm-8 taright">
+								<h3><b>A Brief Spiel About Me</b></h3>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-4">
+							<img class="profilepic" src="/img/profile-pic.png" alt="a drawing somewhat resembling me" width="200" height="200" >
+							</div>
+							<div class="col about-me-text">
+								<p>	My first run in with coding was with this old online game named Graal.  
+									It had a level editor and you could script your own custom items and NPCs.
+									I remember making an RC car that exploded when you ran it into things.<br><br>
+									Being a linux end user for a decade has honed my google-fu skills.
+									My hobby is making things, from art to furniture. Coming from that it gives me an appreciation 
+									for the modularity of programming and how it allows you to reuse the parts.
+								</p>
+							</div>
+						</div>
+					</div>
 
+					<div class="container contact-info">	
+						<div class="row">
+							<div class="col">
+								<h3><b>Contact Info</b></h3>
+								<ul style="text-align: left;">
+								<li>
+									E-Mail: HolyKnightJoshua@gmail.com
+								</li>
+								<li>
+									Mobile: (205) 555-5555
+								</li>
+								<li>
+									Location: Kimberly, AL
+								</li>
+						
+								</ul>
+								<h3 id="my-resume"><b>My Resume</b></h3>
+					
+					
+								<a href="Josh Strawbridge Resume.pdf" download><img src="/img/download-button.png"
+								id="download_button"></a>
+							</div>
+						</div>
+					</div>			
+				</div>
+			</div>
+		</div>
+	</div>
+	
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-9">
@@ -101,8 +112,7 @@
 								Used mostly C#, SQL, ASP.NET Core MVC with some HTML and CSS to build a basic website with the ability to view and edit a database.
 							</li>
 							<li>
-								The project was split into model, view, and controller portions.  <br>
-								The user uses the controller,  the controller controls the model, the model models the view which is then returned to the viewer.
+								The project was split into model, view, and controller portions. The user uses the controller,  <br> the controller controls the model, the model models the view which is then returned to the viewer.
 							</li>
 							<li>
 								This design pattern allows users who wouldn't know how to use the model portion far easier use of the database.
@@ -168,7 +178,7 @@
 			</div>
 		</div>
 
-		</div>
+	
 
 
 
